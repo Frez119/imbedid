@@ -33,7 +33,7 @@ def stop_motor():
     speed_scale.set(0)
 
 # 정지 버튼 생성
-stop_button = ttk.Button(window, text="정지", command=stop_motor)
+stop_button = ttk.Button(window, text="stop", command=stop_motor)
 stop_button.pack()
 
 window.mainloop()
